@@ -24,7 +24,7 @@ body {
 
 .navbar ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 ul li {
@@ -37,7 +37,7 @@ ul li {
     text-decoration: none;
     right: 0px;
     transition: all 0.2s ease;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .navbar-work {
@@ -119,7 +119,7 @@ ul li {
 .full-bg-img4 p {
     font-family: 'Vidaloka', serif;
     padding: 20px;
-    font-size: 80px;
+    font-size: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -206,6 +206,36 @@ ul li {
 }
 
 @media (min-width: 960px) {
+    /**Navbar*/
+    .navbar a {
+        color: white;
+        margin: 20px;
+        text-decoration: none;
+        right: 0px;
+        transition: all 0.2s ease;
+        font-size: 20px;
+    }
+    .navbar ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    /*Parallax and text*/
+    .full-bg-img1 p,
+    .full-bg-img2 p,
+    .full-bg-img3 p,
+    .full-bg-img4 p {
+        font-family: 'Vidaloka', serif;
+        padding: 20px;
+        font-size: 80px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 10;
+        color: white;
+        width: 70%;
+    }
     .work-container {
         display: flex;
         flex-direction: row;
