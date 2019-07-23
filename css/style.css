@@ -144,17 +144,17 @@ ul li {
     margin: 0
 }
 
-.container {
-    margin-top: 95px;
-    margin-bottom: 95px;
-}
-
 .work-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative;
     flex-wrap: wrap;
+}
+
+.container {
+    margin-top: 95px;
+    margin-bottom: 95px;
 }
 
 .work-container .img {
@@ -206,7 +206,7 @@ ul li {
 }
 
 @media (min-width: 960px) {
-    /**Navbar*/
+    /*-----------------Navbar-----------------*/
     .navbar a {
         color: white;
         margin: 20px;
@@ -219,7 +219,7 @@ ul li {
         display: flex;
         justify-content: flex-end;
     }
-    /*Parallax and text*/
+    /*-----------Parallax and text-----------------*/
     .full-bg-img1 p,
     .full-bg-img2 p,
     .full-bg-img3 p,
@@ -236,6 +236,7 @@ ul li {
         color: white;
         width: 70%;
     }
+    /*---------Container from work page--------*/
     .work-container {
         display: flex;
         flex-direction: row;

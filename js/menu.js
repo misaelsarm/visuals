@@ -1,4 +1,4 @@
-const navegacion = document.getElementById('menu')
+const navegacion = document.getElementById('menu');
 console.log(navegacion);
 
 navegacion.addEventListener('click', function(e) {
@@ -9,4 +9,4 @@ navegacion.addEventListener('click', function(e) {
         behavior: 'smooth'
 
     });
-})
+});
