@@ -206,6 +206,57 @@ ul li {
     cursor: pointer;
 }
 
+
+/*-----------Container from contact page------*/
+
+.person-left {
+    display: grid;
+    position: relative;
+    grid-template-columns: 60% 40%;
+    background: #f2f2f2;
+}
+
+.person-right {
+    display: grid;
+    position: relative;
+    grid-template-columns: 40% 60%;
+}
+
+.container-people {
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.person-right .person-img,
+.person-left .person-img {
+    /* padding: 20px; */
+    margin-bottom: 10px;
+}
+
+.person-right .person-img img,
+.person-left .person-img img {
+    width: 50%;
+    height: auto;
+}
+
+.person-right .person-description,
+.person-left .person-description {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.person-right .person-description p,
+.person-left .person-description p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+/* .person-left .person-img {
+    background: aqua;
+    padding: 20px;
+} */
+
 @media (min-width: 960px) {
     /*-----------------Navbar-----------------*/
     .navbar a {
